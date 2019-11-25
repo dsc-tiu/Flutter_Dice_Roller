@@ -1,0 +1,4 @@
+#Mon Nov 25 05:02:56 IST 2019
+base.0=E\:\\New folder\\android-kotlin-fundamentals-apps\\my_dice_roller\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
