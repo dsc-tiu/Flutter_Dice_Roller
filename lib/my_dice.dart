@@ -42,7 +42,11 @@ class _MyDiceState extends State<MyDice> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[200],
-      appBar: AppBar(title: Text('Dice Roller')),
+      appBar: AppBar(title: Text('Dice Roller'),
+        backgroundColor: Colors.lightGreen,
+        centerTitle: true,
+        elevation: 8,
+      ),
       body: Stack(
         fit: StackFit.expand,
         children: <Widget>[
