@@ -14,26 +14,7 @@ class _MyDiceState extends State<MyDice> {
     setState(() {
       var randomNumber = Random().nextInt(6) + 1;
       print(randomNumber);
-      switch (randomNumber) {
-        case 1:
-          imagePath = 'assets/dice_1.jpeg';
-          break;
-        case 2:
-          imagePath = 'assets/dice_2.jpeg';
-          break;
-        case 3:
-          imagePath = 'assets/dice_3.jpeg';
-          break;
-        case 4:
-          imagePath = 'assets/dice_4.jpeg';
-          break;
-        case 5:
-          imagePath = 'assets/dice_5.jpeg';
-          break;
-        case 6:
-          imagePath = 'assets/dice_6.jpeg';
-          break;
-      }
+      imagePath = 'assets/dice_${randomNumber}.jpeg'
       print(imagePath);
     });
   }
