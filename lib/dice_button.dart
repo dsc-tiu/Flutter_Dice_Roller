@@ -7,14 +7,14 @@ class DiceButton extends StatelessWidget {
       borderRadius: BorderRadius.circular(10.0),
       clipBehavior: Clip.hardEdge,
       child: Container(
-        color: Colors.grey[500],
+        color: Colors.lightGreen,
         child: Padding(
           padding: const EdgeInsets.symmetric(
             horizontal: 40.0,
             vertical: 15.0,
           ),
           child: Text('Roll the Dice',style: TextStyle(
-            color: Colors.lightGreenAccent,
+            color: Colors.white,
             fontWeight: FontWeight.bold,
             fontSize: 20.0,
           ),),
